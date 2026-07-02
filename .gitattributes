@@ -4,3 +4,14 @@ release/win-unpacked/**/*.pak filter=lfs diff=lfs merge=lfs -text
 release/win-unpacked/**/*.dat filter=lfs diff=lfs merge=lfs -text
 release/win-unpacked/**/*.bin filter=lfs diff=lfs merge=lfs -text
 release/win-unpacked/**/*.asar filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.exe filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.dll filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.pak filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.dat filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.bin filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.asar filter=lfs diff=lfs merge=lfs -text
+node_modules/**/*.node filter=lfs diff=lfs merge=lfs -text
+node_modules/app-builder-bin/** filter=lfs diff=lfs merge=lfs -text
+node_modules/7zip-bin/** filter=lfs diff=lfs merge=lfs -text
+tmp/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+tmp/**/*.png filter=lfs diff=lfs merge=lfs -text
